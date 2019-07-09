@@ -19,11 +19,27 @@
       body {
         margin-top: 30px;
       }
+      #messageArea {
+        display: none;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div id="userFormArea" class="row">
+        <div class="col-md-12">
+          <form action="" id="userForm">
+            <div class="form-group">
+              <label for="" Enter Username></label>
+              <input name="" id="username" class="form-control" />
+              <br />
+              <input type="submit" class="btn btn-primary" value="Login" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="messageArea" class="row">
         <div class="col-md-4">
           <div class="well">
             <h3>
@@ -56,6 +72,10 @@
         let $messageForm = $("#messageForm");
         let $message = $("#message");
         let $chat = $("#chat");
+        let $messageArea = $("#messageArea");
+        let $userFormArea = $("#userFormArea");
+        let $userForm = $("#users");
+        let $username = $("#username");
 
         $messageForm.submit(function(e) {
           e.preventDefault();
