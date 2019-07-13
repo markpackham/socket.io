@@ -1,0 +1,16 @@
+{
+  "name": "chatappmongodbsocketio",
+  "version": "1.0.0",
+  "description": "Simple chat app using Socket.io and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mongodb": "^3.2.7",
+    "socket.io": "^2.2.0"
+  }
+}
