@@ -11,6 +11,6 @@
   "dependencies": {
     "assert": "^2.0.0",
     "mongodb": "^3.2.7",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   }
 }
